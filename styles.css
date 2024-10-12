@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(252, 213, 220);
+    cursor: pointer;
+}
+
+h1{
+    font-weight: 1000;
+    margin-left: 38rem;
+    padding: 1rem;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    margin-left: 36rem;
+    color: blue;
+    
+}
+
+
+.apj-img{
+    height: 300px;
+    width: 300px;
+    /* background-size:cover; */
+    
+    max-width: 100%;
+    display: flex;
+    margin-left: 35rem;
+}
+
+img{
+    border-radius: 35px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+img:hover{
+    transform:scale(1.1) ;
+    box-shadow: 0 0 25px orange,
+    0 0 50px orange,
+    0 0 100px orange
+
+}
